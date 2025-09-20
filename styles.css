@@ -1,1 +1,45 @@
-/*  your css code here. If applicable */
+:root {
+  background-color: rgb(135, 206, 235);
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+article p:first-child {
+  color: #fff;
+  background-color: #000;
+  padding: 6px;
+  font-weight: bold;
+}
+article p:nth-child(2) {
+  color: #000;
+}
+article p:last-child {
+  color: red;
+}
+ul {
+  width: 50%;
+  background: #fff;
+  padding: 15px;
+  margin: 40px 0 0 40px;
+}
+ul li {
+  background: #6b7280;
+  color: #222;
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+  margin: 0;
+}
+ul li:nth-child(odd) {
+  background: #fff;
+  color: #333;
+}
+ul li:first-child,
+ul li:last-child {
+  font-size: 22px;
+}
+ul li:nth-last-child(3) {
+  background: #f8b4b4;
+  color: #222;
+}
